@@ -77,4 +77,22 @@
 // var a = 1 + 2;
 // console.log(3);
 
-console.log(1 < 2 < 3);
+// console.log(3 < 2 < 1);
+
+// var a;
+// a = 0;
+
+// if (a || Object.is(a, 0)) {
+//   console.log("Something is there");
+// }
+
+// function greet(name) {
+//   name = name || "John";
+//   console.log("Hello " + name);
+// }
+
+// greet();
+
+// Framework Aside
+
+console.log(librayName);
