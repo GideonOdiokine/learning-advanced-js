@@ -124,19 +124,36 @@
 
 // Objects and Object Literals
 
-var Odiok = {
-  firstname: "Gideon",
-  lastname: "Odiokine",
-  address: {
-    street: "No 10 Bassey",
-    city: "New York",
-    state: "NY",
+// var Odiok = {
+//   firstname: "Gideon",
+//   lastname: "Odiokine",
+//   address: {
+//     street: "No 10 Bassey",
+//     city: "New York",
+//     state: "NY",
+//   },
+// };
+
+// function greet(person) {
+//   console.log(`Hello ${person.firstname}, How are you ?`);
+// }
+
+// greet(Odiok);
+
+// console.log(person);
+
+// var greet = "Hello";
+// var greet = "Hola";
+// console.log(greet);
+
+var english = {
+  greetings: {
+    basic: "Hello!",
   },
 };
 
-function greet(person) {
-  console.log(`Hello ${person.firstname}, How are you ?`);
-}
+var spanish = {
+  greet: "Hola",
+};
 
-greet(Odiok);
-// console.log(person);
+console.log(spanish, english);
