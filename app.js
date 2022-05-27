@@ -95,4 +95,48 @@
 
 // Framework Aside
 
-console.log(librayName);
+// console.log(librayName);
+
+// Objects and Functions
+
+// Objects and the dot
+
+// var person = new Object();
+
+// person["firstname"] = "Gideon";
+// person["lastname"] = "Odiokine";
+
+// var firstnameProperty = "firstname";
+
+// // console.log(person);
+// console.log(person[firstnameProperty]);
+
+// console.log(person.firstname);
+// console.log(person.lastname);
+
+// person.address = new Object();
+
+// person.address.street = "No 10 bassey street";
+// person.address.city = "New York";
+// person.address.state = "NY";
+
+// console.log(person);
+
+// Objects and Object Literals
+
+var Odiok = {
+  firstname: "Gideon",
+  lastname: "Odiokine",
+  address: {
+    street: "No 10 Bassey",
+    city: "New York",
+    state: "NY",
+  },
+};
+
+function greet(person) {
+  console.log(`Hello ${person.firstname}, How are you ?`);
+}
+
+greet(Odiok);
+// console.log(person);

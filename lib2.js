@@ -1,1 +1,1 @@
-var librayName = window.librayName || "Lib 2";
+window.librayName = window.librayName || "Lib 2";
