@@ -146,14 +146,27 @@
 // var greet = "Hola";
 // console.log(greet);
 
-var english = {
-  greetings: {
-    basic: "Hello!",
-  },
-};
+// var english = {
+//   greetings: {
+//     basic: "Hello!",
+//   },
+// };
 
-var spanish = {
-  greet: "Hola",
-};
+// var spanish = {
+//   greet: "Hola",
+// };
 
-console.log(spanish, english);
+// console.log(spanish, english);
+
+// var objectLiteral = {
+//   firstname: "Gideon",
+//   isProgrammer: true,
+// };
+
+// console.log(JSON.stringify(objectLiteral));
+
+// var jsonValue = '{ "firstname":"Gidi", "isProgrammer":true}';
+// console.log(JSON.parse(jsonValue));
+
+
+
